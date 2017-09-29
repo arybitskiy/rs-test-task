@@ -16,7 +16,7 @@ var styles = {
     content : {},
     contentActive : {},
     contentInActive : {
-      backgroundColor : '#CCC',
+      backgroundColor : '#E6E7E8',
     },
     topLine : {
       height : '17px',
@@ -37,14 +37,16 @@ var styles = {
       marginTop : '-25px',
       borderRadius : '25px',
       backgroundColor : '#FFF',
-      boxShadow : '0px 0px 10px #000',
+      boxShadow : 'rgb(0, 0, 0) 0px 0px 20px -6px',
     },
     title : {
       textAlign : 'center',
       color : '#858c93',
       lineHeight : '25px',
       height : '25px',
-      marginTop : '20px',
+      marginTop : '32px',
+      fontSize : '19px',
+      fontFamily : 'Arial',
     },
     titleText : {
       display : 'inline-block',
@@ -67,11 +69,12 @@ var styles = {
     },
     items : {
       textAlign : 'center',
-      margin : '10px 0',
+      margin : '30px 0',
     },
     manageTemplatesLink : {
       textAlign : 'center',
-      borderTop : '2px solid #CCC',
+      borderTop : '2px solid #E6E7E8',
+      lineHeight : '36px',
     },
   },
   stageCardItem : {
@@ -105,6 +108,8 @@ var styles = {
       paddingLeft : '10px',
       color : '#858c93',
       verticalAlign : 'middle',
+      fontSize : '19px',
+      fontFamily : 'Arial',
     },
     itemActive : {
       color : '#36C5A4',
