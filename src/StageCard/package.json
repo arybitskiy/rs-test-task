@@ -1,0 +1,5 @@
+{ "name" : "StageCard"
+, "version" : "0.0.1"
+, "description" : "Stage Card"
+, "main" : "index.js"
+}
